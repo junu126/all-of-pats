@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "new:pkg": "yarn hygen new package"
+  },
+  "devDependencies": {
+    "hygen": "^6.0.4"
+  },
+  "workspaces": [
+    "packages/*",
+    "allOfPatsFrontedApp",
+    "all-of-pats-backend"
+  ],
+  "ntl": {
+    "runner": "yarn"
+  },
+  "packageManager": "yarn@3.4.1"
+}
