@@ -32,8 +32,7 @@
   },
   "workspaces": [
     "packages/*",
-    "allOfPatsFrontedApp",
-    "all-of-pats-backend"
+    "allOfPatsFrontedApp"
   ],
   "ntl": {
     "runner": "yarn"

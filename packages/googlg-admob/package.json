@@ -1,6 +1,7 @@
 {
-  "name": "@flexteam/googlg-admob",
-  "version": "0.0.0",
+  "private": true,
+  "name": "@pkg/googlg-admob",
+  "version": "0.0.1",
   "sideEffects": false,
   "scripts": {
     "build:js": "babel src --out-dir dist --extensions .ts,.tsx",

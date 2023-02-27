@@ -2,7 +2,7 @@
 to: packages/<%= pkg_name %>/package.json
 ---
 {
-  "name": "@flexteam/<%= pkg_name %>",
+  "name": "@pkg/<%= pkg_name %>",
   "version": "0.0.0",
   "sideEffects": false,
   "scripts": {

@@ -1,5 +1,1 @@
-const answer = 42;
-
-export default () => {
-  return answer;
-}
+export { default as Banner } from './Banner';
