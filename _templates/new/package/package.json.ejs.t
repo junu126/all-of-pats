@@ -28,7 +28,6 @@ to: packages/<%= pkg_name %>/package.json
     "@babel/plugin-transform-runtime": "^7.16.5",
     "@babel/preset-env": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
-    "@flexteam/test": "workspace:^",
     "@rushstack/eslint-patch": "^1.0.7",
     "@types/jest": "^27.5.1",
     "@types/prettier": "^2",

@@ -1,6 +1,10 @@
+const baseConfig = require('../babel.config');
+
 module.exports = {
-  presets: ['module:metro-react-native-babel-preset'],
+  ...baseConfig,
+  presets: [...baseConfig.presets, 'module:metro-react-native-babel-preset'],
   plugins: [
+    ...baseConfig.plugins,
     [
       'module:react-native-dotenv',
       {

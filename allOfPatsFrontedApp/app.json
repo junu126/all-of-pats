@@ -1,4 +1,8 @@
 {
   "name": "allOfPatsFrontedApp",
-  "displayName": "allOfPatsFrontedApp"
+  "displayName": "allOfPatsFrontedApp",
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-5013515904609647~5222576900",
+    "ios_app_id": "ca-app-pub-5013515904609647~5222576900"
+  }
 }
