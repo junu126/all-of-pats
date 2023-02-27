@@ -3,7 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "new:pkg": "yarn hygen new package"
+    "immutable-install": "yarn install --immutable --immutable-cache",
+    "bootstrap": "yarn immutable-install",
+    "new:pkg": "yarn hygen new package",
+    "dev:android": "yarn workspace all-of-pats-fronted-app android"
   },
   "devDependencies": {
     "@babel/cli": "^7.16.0",
