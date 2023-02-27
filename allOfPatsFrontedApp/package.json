@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "@babel/runtime-corejs3": "^7.16.5",
+    "@pkg/googlg-admob": "workspace:*",
     "react": "18.2.0",
     "react-native": "0.71.3",
     "react-native-google-mobile-ads": "^9.1.2"
