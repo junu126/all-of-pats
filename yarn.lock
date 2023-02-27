@@ -3434,6 +3434,7 @@ __metadata:
     "@babel/core": ^7.20.0
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
+    "@babel/runtime-corejs3": ^7.16.5
     "@react-native-community/cli": ^10.2.0
     "@react-native-community/eslint-config": ^3.2.0
     "@tsconfig/react-native": ^2.0.2
