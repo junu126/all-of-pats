@@ -1,0 +1,10 @@
+**/.next/**/*
+**/dist/**/*
+**/coverage/**/*
+**/node_modules/**/*
+
+**/package.json
+**/yarn.lock
+
+.yarn/**/*
+.pnp.js

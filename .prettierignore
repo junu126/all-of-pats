@@ -1,0 +1,16 @@
+**/.next/**/*
+**/dist/**/*
+**/generated/**/*
+**/coverage/**/*
+**/node_modules/**/*
+
+**/package.json
+**/yarn.lock
+**/*.json5
+
+.yarn/**/*
+.pnp.js
+.pnp.cjs
+.pnp.loader.mjs
+
+*.yml
