@@ -5,8 +5,4 @@
     "lib": ["esnext", "DOM", "DOM.Iterable"],
     "jsx": "preserve"
   },
-  "files": [
-    "./packages/types/src/global/cssfilter.d.ts",
-    "./packages/types/src/global/froala.d.ts"
-  ]
 }
