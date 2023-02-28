@@ -2343,16 +2343,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pkg/googlg-admob@file:../packages/googlg-admob::locator=all-of-pats-fronted-app%40workspace%3AallOfPatsFrontedApp":
-  version: 0.0.1
-  resolution: "@pkg/googlg-admob@file:../packages/googlg-admob#../packages/googlg-admob::hash=51c31e&locator=all-of-pats-fronted-app%40workspace%3AallOfPatsFrontedApp"
-  dependencies:
-    "@babel/runtime-corejs3": ^7.16.5
-  checksum: 423b997a0e2ce3242868928d28bbd6123c1042e7ce069292c309a080918f8d40fd0061eee8f01a638accc01db2be8de177d9cbfa1e201c66d931691f8313af2b
-  languageName: node
-  linkType: hard
-
-"@pkg/googlg-admob@workspace:packages/googlg-admob":
+"@pkg/googlg-admob@workspace:^, @pkg/googlg-admob@workspace:packages/googlg-admob":
   version: 0.0.0-use.local
   resolution: "@pkg/googlg-admob@workspace:packages/googlg-admob"
   dependencies:
@@ -3444,7 +3435,7 @@ __metadata:
     "@babel/preset-env": ^7.20.0
     "@babel/runtime": ^7.20.0
     "@babel/runtime-corejs3": ^7.16.5
-    "@pkg/googlg-admob": ../packages/googlg-admob
+    "@pkg/googlg-admob": "workspace:^"
     "@react-native-community/cli": ^10.2.0
     "@react-native-community/eslint-config": ^3.2.0
     "@tsconfig/react-native": ^2.0.2
